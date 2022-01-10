@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fashion store</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+</head>
+<body>
+
+  <button id="js-btn">Load</button>
+  <div class="wrapper">
+    <!--  loader start  -->
+    <div class="loader" id="js-loader">
+      <div class="loader__cube" id="js-loader-cube"></div>
+      <div class="loader__line" id="js-loader-line"></div>
+    </div>
+    <!--  loader end  -->
+
+    <div id="js-sections" class="sections">
+      <div class="section section--first">
+        <div class="logo">
+          <div class="logo__cube"></div>
+          <div class="logo__line"></div>
+        </div>
+        <ul class="list">
+          <li class="list__item">shoes</li>
+          <li class="list__item">tops</li>
+          <li class="list__item">pants & tights</li>
+          <li class="list__item">new arrivals</li>
+          <li class="list__item list__item--active">best sellers</li>
+        </ul>
+
+        <div class="section__title-overlay"></div>
+      </div>
+      <div class="section section--second">
+        <div class="section__line"></div>
+        <div class="section__img section__img--second"></div>
+        <div class="section__overlay"></div>
+
+        <h2 class="section__title">Sport</h2>
+        <div class="section__title-overlay"></div>
+      </div>
+      <div class="section section--third">
+        <div class="section__line"></div>
+        <div class="section__img section__img--third"></div>
+        <div class="section__overlay"></div>
+
+        <h2 class="section__title">Classic</h2>
+        <div class="section__title-overlay"></div>
+      </div>
+      <div class="section section--forth">
+        <div class="section__line"></div>
+        <div class="section__img section__img--forth"></div>
+        <div class="section__overlay"></div>
+
+        <h2 class="section__title">Provence</h2>
+        <div class="section__title-overlay"></div>
+      </div>
+      <div class="section section--fifth">
+        <div class="section__line"></div>
+        <div class="section__img section__img--fifth"></div>
+        <div class="section__overlay"></div>
+
+        <h2 class="section__title">Hoppy</h2>
+        <div class="section__title-overlay"></div>
+      </div>
+    </div>
+
+  </div>
+
+<script src="script/main.js"></script>
+</body>
+</html>
